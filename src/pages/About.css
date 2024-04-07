@@ -1,0 +1,122 @@
+.title {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+}
+.title span {
+  color: #fff;
+  font-family: "Roboto Slab";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about-line {
+  width: 200px;
+  height: 3px;
+  background: linear-gradient(90deg, #fa5252 0%, #dd2476 100%);
+  border: none;
+  position: relative;
+  right: 10rem;
+}
+
+.describe {
+  display: flex;
+  justify-content: flex-start;
+  padding: 50px;
+  /* position: relative;
+  bottom: 5rem; */
+}
+.describe p {
+  width: 100%;
+  color: #a6a6a6;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+div .secondTitle {
+  text-align: left;
+  display: flex;
+}
+.secondTitle {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: left;
+  padding: 50px;
+}
+
+.blocks {
+  display: flex;
+  padding: 50px;
+  gap: 50px;
+}
+.blocks section {
+  width: 350px;
+  height: 203px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 2px solid #212425;
+  background: #000;
+  display: flex;
+}
+
+.icon {
+  padding: 20px;
+}
+
+.smallDesc h4 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  right: 50px;
+}
+
+.smallDesc > span {
+  width: 243px;
+  height: 120px;
+  color: #a6a6a6;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  position: relative;
+  right: 50px;
+  text-wrap: wrap;
+}
+
+.clearBlock {
+  width: 850px;
+  height: 250px;
+  flex-shrink: 0;
+  background: #0d0d0d;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #a6a6a6;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  
+  position: relative;
+  top: 50px;
+}
