@@ -1,0 +1,91 @@
+.title {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+}
+.title span {
+  color: #fff;
+  font-family: "Roboto Slab";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about-line {
+  width: 200px;
+  height: 3px;
+  background: linear-gradient(90deg, #fa5252 0%, #dd2476 100%);
+  border: none;
+  position: relative;
+  right: 10rem;
+}
+
+.contact-block {
+  width: 730px;
+  height: 635px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 2px solid #212425;
+  background: #000;
+
+  position: relative;
+  left: 50px;
+}
+
+.txtBlock {
+  width: 486.667px;
+}
+.txtBlock p {
+  color: #A6A6A6;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 164%; /* 41px */
+text-transform: uppercase;
+
+padding: 20px;
+}
+
+.contact-info {
+  text-align: left;
+  padding: 20px;
+}
+.contact-info div {
+  display: flex;
+  flex-direction: column;
+}
+.contact-info div label {
+width: 62.647px;
+color: #A6A6A6;
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.4px;
+position: relative;
+top: 10px;
+
+}
+.contact-info div label {
+  margin-top: 20px;
+  margin-bottom: 50px;
+width: 638.75px;
+height: 1px;
+flex-shrink: 0;
+
+}
+
+.submitBtn-block button {
+  display: inline-flex;
+padding: 20px 34px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 12px;
+border: 2px solid #A6A6A6;
+background: #000;
+margin-top: 50px;
+}

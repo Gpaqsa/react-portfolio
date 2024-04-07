@@ -1,0 +1,22 @@
+.title {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+}
+.title span {
+  color: #fff;
+  font-family: "Roboto Slab";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about-line {
+  width: 200px;
+  height: 3px;
+  background: linear-gradient(90deg, #fa5252 0%, #dd2476 100%);
+  border: none;
+  position: relative;
+  right: 10rem;
+}

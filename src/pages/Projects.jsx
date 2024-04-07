@@ -1,7 +1,11 @@
+import "./Projects.css";
 const Projects = () => {
   return (
     <div>
-      <h1>Projects</h1>
+      <div className="title">
+        <span>Portfolio</span>
+        <hr className="about-line" />
+      </div>
     </div>
   );
 };

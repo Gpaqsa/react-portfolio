@@ -1,0 +1,113 @@
+.title {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+}
+.title span {
+  color: #fff;
+  font-family: "Roboto Slab";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about-line {
+  width: 200px;
+  height: 3px;
+  background: linear-gradient(90deg, #fa5252 0%, #dd2476 100%);
+  border: none;
+  position: relative;
+  right: 10rem;
+}
+
+/*  */
+
+.describeMe {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.describeMe div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.describeMe div img {
+  width: 38px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.mainArticle div {
+  width: 350px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 2px solid #212425;
+  background: #000;
+  text-align: left;
+  margin: 20px 50px;
+  padding: 10px;
+}
+
+.mainArticle div span {
+  padding-left: 10px;
+  color: #a6a6a6;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+}
+
+.mainArticle div p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 10px;
+}
+/*  */
+
+.addData {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  width: 850px;
+  height: 431px;
+  flex-shrink: 0;
+}
+.addData h4 {
+    color: #FFF;
+font-family: Poppins;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: left;
+margin-left: 50px;
+}
+.addData ul {
+    width: 365px;
+    text-align: left;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #a6a6a6;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  
+  position: relative;
+  top: 50px;
+}
