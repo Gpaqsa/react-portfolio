@@ -10,36 +10,28 @@
 }
 
 .navbar-menu section.current-about {
-  border-radius: 16px;
-  background: #000;
-
+  /* background: linear-gradient(153deg, #fa5252 16.67%, #dd2476 100%); */
   width: 84px;
   height: 84px;
   flex-shrink: 0;
-
   border-radius: 12px;
-  background: linear-gradient(153deg, #fa5252 16.67%, #dd2476 100%);
 }
 
 .navbar-menu section {
-  border-radius: 12px;
-  background: #212425;
-  border-radius: 16px;
-
   width: 84px;
   height: 84px;
   flex-shrink: 0;
   margin: 0 10px;
-
   display: inherit;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
- .navbar-menu section img {
+
+.navbar-menu section img {
   width: 25px;
   height: 25px;
-  margin-bottom: 10px;
+  margin: 20px;
 }
 
 .navbar-menu section span {
@@ -50,4 +42,6 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  position: relative;
+  bottom: 20px;
 }

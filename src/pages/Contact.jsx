@@ -31,6 +31,7 @@ const Contact = () => {
           </div>
         </form>
       </section>
+      <footer>© 2024 Giorgi Paksashvili ( Own Portfolio ).</footer>
     </div>
   );
 };
