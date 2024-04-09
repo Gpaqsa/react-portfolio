@@ -7,7 +7,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .navbar-menu section.current-about {
@@ -16,8 +15,6 @@
   height: 84px;
   flex-shrink: 0;
   border-radius: 12px;
-
-
 }
 
 .navbar-menu section {
@@ -47,6 +44,10 @@
   line-height: normal;
   position: relative;
   bottom: 20px;
-
 }
 
+@media screen and (max-width: 768px) {
+  .navbar-menu {
+    width: 100%;
+  }
+}
