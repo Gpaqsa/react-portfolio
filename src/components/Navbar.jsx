@@ -1,7 +1,7 @@
 import "./Navbar.css";
 import about from "../assets/about.png";
 import resume from "../assets/resume1.png";
-import works from "../assets/codesandbox.png";
+import Projects from "../assets/codesandbox.png";
 import contact from "../assets/contactImg.png";
 
   
@@ -16,33 +16,28 @@ const navLinkStyle = ({ isActive }) => ({
 const Navbar = () => {
   return (
     <div className="navbar-menu">
-      <NavLink
-        to="/"
-        className="current-about"
-        activeClassName="active-link"
-        style={navLinkStyle}
-      >
+      <NavLink to="/" className="current-about" style={navLinkStyle}>
         <section className="current-about">
           <img src={about} alt="" />
           <span>About</span>
         </section>
       </NavLink>
 
-      <NavLink to="/resume" activeClassName="active-link" style={navLinkStyle}>
+      <NavLink to="/resume" style={navLinkStyle}>
         <section>
           <img src={resume} alt="" />
           <span>Resume</span>
         </section>
       </NavLink>
 
-      <NavLink to="/works" activeClassName="active-link" style={navLinkStyle}>
+      <NavLink to="/projects" style={navLinkStyle}>
         <section>
-          <img src={works} alt="" />
+          <img src={Projects} alt="" />
           <span>Projects</span>
         </section>
       </NavLink>
 
-      <NavLink to="/contact" activeClassName="active-link" style={navLinkStyle}>
+      <NavLink to="/contact" style={navLinkStyle}>
         <section>
           <img src={contact} alt="" />
           <span>Contact</span>

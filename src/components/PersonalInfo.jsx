@@ -2,7 +2,6 @@ import "./PersonalInfo.css";
 import facebookIcon from "../assets/facebook.png";
 import linkdInIcon from "../assets/linkedin.png";
 import instagramIcon from "../assets/instragram.png";
-import twiterIcon from "../assets/twitter.png";
 import phoneIcon from "../assets/phoneIcon.png";
 import emailIcon from "../assets/emailIcon.png";
 import calendarIcon from "../assets/calendarIcon.png";
@@ -20,16 +19,19 @@ const PersonalInfo = () => {
           </div>
           <div className="icons-block">
             <div>
-              <img src={facebookIcon} />
+              <a href="">
+                <img src={facebookIcon} />
+              </a>
             </div>
             <div>
-              <img src={instagramIcon} alt="linkInIcon" />
+              <a href="">
+                <img src={instagramIcon} alt="linkInIcon" />
+              </a>
             </div>
             <div>
-              <img src={twiterIcon} alt="linkInIcon" />
-            </div>
-            <div>
-              <img src={linkdInIcon} alt="linkInIcon" />
+              <a href="">
+                <img src={linkdInIcon} alt="linkInIcon" />
+              </a>
             </div>
           </div>
         </div>

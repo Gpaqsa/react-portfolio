@@ -90,20 +90,34 @@ background: #000;
 margin-top: 50px;
 }
 
-
 footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: last baseline;
-  align-items: center;
-  color: #a6a6a6;
-  text-align: center;
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px; /* 175% */
-  
-    position: relative;
-    top: 20rem;
+  width: 850px;
+height: 68px;
+flex-shrink: 0;
+
+border-radius: 0px 0px 20px 20px;
+background: #0D0D0D;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
 }
+
+
+footer span {
+  color: #A6A6A6;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+
+input {
+  background-color: #A6A6A6;
+  padding: 5px;
+}
+

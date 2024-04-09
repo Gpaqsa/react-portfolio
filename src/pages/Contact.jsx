@@ -6,7 +6,6 @@ const Contact = () => {
         <span>Contact</span>
         <hr className="about-line" />
       </div>
-
       <section className="contact-block">
         <div className="txtBlock">
           <p>
@@ -16,22 +15,24 @@ const Contact = () => {
         <form className="contact-info">
           <div>
             <label>Name*</label>
-            <input></input>
+            <input type="text" />
           </div>
           <div>
             <label>Email*</label>
-            <input></input>
+            <input type="email" />
           </div>
           <div>
             <label>Message*</label>
-            <input></input>
+            <input type="text" />
           </div>
           <div className="submitBtn-block">
             <button>submit</button>
           </div>
         </form>
       </section>
-      <footer>© 2024 Giorgi Paksashvili ( Own Portfolio ).</footer>
+      <footer>
+        <span>© 2024 Giorgi Paksashvili ( Own Portfolio ).</span>
+      </footer>{" "}
     </div>
   );
 };

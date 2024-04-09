@@ -3,7 +3,7 @@ import icon from "../assets/icon.png";
 import icon2 from "../assets/icon2.png";
 const About = () => {
   return (
-    <div>
+    <div className="about-box">
       <div className="title">
         <span>About Me</span>
         <hr className="about-line" />
@@ -46,9 +46,10 @@ const About = () => {
           </div>
         </section>
       </div>
-
       <div className="clearBlock"></div>
-      <footer>© 2024 Giorgi Paksashvili ( Own Portfolio ).</footer>
+      <footer>
+        <span>© 2024 Giorgi Paksashvili ( Own Portfolio ).</span>
+      </footer>{" "}
     </div>
   );
 };

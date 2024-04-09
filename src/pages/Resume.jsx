@@ -54,7 +54,10 @@ const Resume = () => {
           </ul>
         </div>
       </section>
-      <footer>© 2024 Giorgi Paksashvili ( Own Portfolio ).</footer>
+
+      <footer>
+        <span>© 2024 Giorgi Paksashvili ( Own Portfolio ).</span>
+      </footer>
     </div>
   );
 };

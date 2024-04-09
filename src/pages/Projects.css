@@ -20,3 +20,335 @@
   position: relative;
   right: 10rem;
 }
+
+/*  */
+
+.movie-land {
+  width: 350px;
+  height: 270px;
+  flex-shrink: 0;
+
+  border-radius: 12px;
+  border: 2px solid #212425;
+  background: #0d0d0d;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+
+  bottom: 50px;
+}
+
+.movie-land div {
+  width: 310px;
+  height: 166px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: url("../assets/movieLand.png") lightgray 50% / cover no-repeat;
+  margin: 20px;
+}
+
+.movie-land span {
+  color: #a6a6a6;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.movie-land p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+/*  */
+
+.calculator {
+  width: 350px;
+  height: 370px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 2px solid #212425;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.calculator div {
+  width: 310px;
+  height: 266px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: url("../assets/calculator.png") lightgray 50% / cover no-repeat;
+  margin: 20px;
+}
+
+.calculator span {
+  color: #a6a6a6;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.calculator p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.interactive {
+  width: 350px;
+  height: 370px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 2px solid #212425;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+  flex-direction: column;
+
+  bottom: 68px;
+}
+
+.interactive div {
+  width: 310px;
+  height: 266px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: url("../assets/interactive.png") lightgray 50% / cover no-repeat;
+  margin: 20px;
+}
+
+.interactive span {
+  color: #a6a6a6;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.interactive p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.quizApp {
+  width: 350px;
+  height: 320px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 2px solid #212425;
+  background: #000;
+}
+
+.quizApp div {
+  width: 310px;
+  height: 216px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: url("../assets//quizApp.png") lightgray 50% / cover no-repeat;
+  margin: 20px;
+}
+
+.quizApp span {
+  color: #a6a6a6;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.quizApp p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.qrCode {
+  width: 350px;
+  height: 320px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 2px solid #212425;
+  background: #000;
+
+  bottom: 40px;
+}
+
+.qrCode div {
+  width: 310px;
+  height: 216px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: url("../assets//qrCode.jpeg") lightgray 50% / cover no-repeat;
+  margin: 20px;
+}
+
+.qrCode span {
+  color: #a6a6a6;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.qrCode p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+/*  */
+
+.productComponent {
+  width: 350px;
+  height: 270px;
+  flex-shrink: 0;
+
+  border-radius: 12px;
+  border: 2px solid #212425;
+  background: #0d0d0d;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  bottom: 40px;
+}
+
+.productComponent div {
+  width: 310px;
+  height: 166px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: url("../assets//productComponent.jpeg") lightgray 50% / cover
+    no-repeat;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.productComponent span {
+  color: #a6a6a6;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.productComponent p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.projects-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto); /* 3 rows with automatic height */
+  grid-gap: 10px;
+  justify-content: center; /* Center items horizontally */
+  align-items: center;
+}
+
+.projects-content section {
+  margin: 0px 20px;
+}
+
+.projects-content .movie-land,
+.interactive,
+.qrCode,
+.productComponent {
+  position: relative;
+}
+
+footer {
+  width: 850px;
+height: 68px;
+flex-shrink: 0;
+
+border-radius: 0px 0px 20px 20px;
+background: #0D0D0D;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+position: relative;
+bottom: 20rem;
+}
+
+
+footer span {
+  color: #A6A6A6;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+
+
+.proj {
+  width: 850px;
+height: 1586px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #000;
+}
+

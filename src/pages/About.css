@@ -98,22 +98,44 @@ div .secondTitle {
 }
 
 .clearBlock {
-  width: 850px;
-  height: 50px;
+width: 850px;
+height: 237px;
   flex-shrink: 0;
   background: #0d0d0d;
+  position: relative;
+  top: 120px;
 }
 
 footer {
- color: #A6A6A6;
-text-align: center;
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px; /* 175% */
-  
-position: relative;
-bottom: 20rem;
+  width: 850px;
+  height: 68px;
+  flex-shrink: 0;
 
+  border-radius: 0px 0px 20px 20px;
+  background: #0d0d0d;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  bottom: 21rem;
+}
+
+footer span {
+  color: #a6a6a6;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.about-box {
+  width: 850px;
+height: 1406px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #000;
 }
