@@ -158,3 +158,14 @@ button {
 
 
 
+.github {
+  font-family: "Font Awesome 5 Brands";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: linear-gradient(180deg, #515ECF 0%, #C53184 36.98%, #F3673A 75%, #DB2E7A 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}

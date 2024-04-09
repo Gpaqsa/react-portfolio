@@ -7,6 +7,7 @@ import emailIcon from "../assets/emailIcon.png";
 import calendarIcon from "../assets/calendarIcon.png";
 import locationIcon from "../assets/locationIcon.png";
 import cvDown from "../assets/cv.png";
+// import gitHubIcon from "../assets/mark-Github-24.jpeg";
 
 const PersonalInfo = () => {
   return (
@@ -19,17 +20,22 @@ const PersonalInfo = () => {
           </div>
           <div className="icons-block">
             <div>
-              <a href="">
+              <a href="https://www.facebook.com/giorgi.paqsashvili.12">
                 <img src={facebookIcon} />
               </a>
             </div>
+            {/* <div>
+              <a href="https://www.facebook.com/giorgi.paqsashvili.12">
+                <img src={gitHubIcon} className="github" />
+              </a>
+            </div> */}
             <div>
-              <a href="">
+              <a href="https://www.instagram.com/gio_paksa/">
                 <img src={instagramIcon} alt="linkInIcon" />
               </a>
             </div>
             <div>
-              <a href="">
+              <a href="https://www.linkedin.com/in/giorgi-paksashvili-a7a47b207/">
                 <img src={linkdInIcon} alt="linkInIcon" />
               </a>
             </div>

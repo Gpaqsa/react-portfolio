@@ -4,7 +4,6 @@ import resume from "../assets/resume1.png";
 import Projects from "../assets/codesandbox.png";
 import contact from "../assets/contactImg.png";
 
-  
 import { NavLink } from "react-router-dom";
 const navLinkStyle = ({ isActive }) => ({
   borderRadius: isActive ? "12px" : "16px",
