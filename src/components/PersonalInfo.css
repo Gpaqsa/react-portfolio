@@ -154,3 +154,17 @@ button {
   font-weight: 500;
   line-height: normal;
 }
+
+@media screen and (max-width: 768px) {
+  .personalInfo-block{
+    width: 100%;
+  }
+  
+  .personalInfo-content {
+    width: 100%;
+  }
+  
+  .cart-block {
+    flex-direction: row;
+  }
+}

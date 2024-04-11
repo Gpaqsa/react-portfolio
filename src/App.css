@@ -24,12 +24,15 @@
 
 /* Media query for mobile devices (adjust breakpoint as needed) */
 @media only screen and (max-width: 768px) {
+
   /* Restructure layout for mobile */
   .app-block {
     width: 100rem;
     flex-direction: column-reverse; /* Stack elements vertically */
   }
 
- 
+ .pages-block {
+  bottom: 0rem;
+ }
 }
 
