@@ -140,15 +140,3 @@ border-radius: 20px;
 background: #000;
 }
 
-/* Media query for mobile devices (adjust breakpoint as needed) */
-@media only screen and (max-width: 768px) {
- 
-  .about-box,.describe {
-    width: 100%;
-    height: auto;
-    /* display: none; */
-  }
-
- 
-}
-
