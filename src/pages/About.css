@@ -1,4 +1,4 @@
-.title {
+/* .title {
   display: flex;
   padding: 50px;
   align-items: center;
@@ -25,8 +25,7 @@
   display: flex;
   justify-content: flex-start;
   padding: 50px;
-  /* position: relative;
-  bottom: 5rem; */
+  
 }
 .describe p {
   width: 100%;
@@ -35,7 +34,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; /* 175% */
+  line-height: 28px; 
 }
 
 div .secondTitle {
@@ -98,8 +97,8 @@ div .secondTitle {
 }
 
 .clearBlock {
-width: 850px;
-height: 237px;
+  width: 850px;
+  height: 237px;
   flex-shrink: 0;
   background: #0d0d0d;
   position: relative;
@@ -129,14 +128,116 @@ footer span {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; /* 175% */
+  line-height: 28px; 
 }
 
 .about-box {
   width: 850px;
-height: 1406px;
-flex-shrink: 0;
-border-radius: 20px;
-background: #000;
+  height: 1406px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #000;
+  justify-content: right;
+}
+ */
+
+.about-box {
+  margin: 20px;
+  width: 850px;
+  width: 850px;
+  height: 1161px;
+  border-radius: 20px;
+  background: #000;
 }
 
+.title {
+  text-align: center;
+  padding: 20px;
+}
+
+.title span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.about-line {
+  width: 50%;
+  margin: 10px auto;
+}
+
+.describe {
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.describe p {
+  color: #a6a6a6;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  width: 676px;
+  text-align: center;
+}
+.secondTitle {
+  padding: 20px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.blocks {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.blocks section {
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  padding: 20px;
+  width: 350px;
+  height: 203px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 2px solid #212425;
+  background: #000;
+}
+
+.icon img {
+  width: 80px; /* Adjust icon size */
+}
+
+.smallDesc h4 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 20px;
+}
+.smallDesc > span {
+  color: #a6a6a6;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 20px;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+footer span {
+  font-size: 14px;
+}

@@ -4,7 +4,7 @@ import icon4 from "../assets/icon4.png";
 
 const Resume = () => {
   return (
-    <div>
+    <div className="resume-box">
       <div className="title">
         <span>Resume</span>
         <hr className="about-line" />
@@ -31,7 +31,7 @@ const Resume = () => {
             <span>Bachelor, Information of Technology</span>
           </div>
         </div>{" "}
-        <hr />
+        {/* <hr /> */}
       </section>
       <section className="addData">
         <div>
