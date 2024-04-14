@@ -308,3 +308,29 @@ button {
   font-weight: 500;
   line-height: normal;
 }
+
+@media only screen and (max-width: 600px) {
+ .personalInfo-block {
+  width: 100%; /* Set width of the container */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.personalInfo-content {
+  width: 100%; /* Occupy 100% width of the parent container */
+  max-width: 400px;
+  border-radius: 20px;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  display: none;
+}
+
+
+}
